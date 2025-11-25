@@ -1,3 +1,193 @@
+# # ============================================
+# # PYTHON COMPILED FILES
+# # ============================================
+# __pycache__/
+# *.py[cod]
+# *$py.class
+# *.pyc
+# *.so
+
+# # ============================================
+# # VIRTUAL ENVIRONMENTS (CRITICAL!)
+# # ============================================
+# venv/
+# env/
+# .venv/
+# ENV/
+# env.bak/
+# venv.bak/
+
+# # ============================================
+# # DISTRIBUTION / PACKAGING
+# # ============================================
+# .Python
+# maildir/
+# env/
+# venv/
+# build/
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# *.egg-info/
+# .installed.cfg
+# *.egg
+
+# # ============================================
+# # PYINSTALLER
+# # ============================================
+# *.manifest
+# *.spec
+
+# # ============================================
+# # INSTALLER LOGS
+# # ============================================
+# pip-log.txt
+# pip-delete-this-directory.txt
+
+# # ============================================
+# # TESTING / COVERAGE
+# # ============================================
+# htmlcov/
+# .tox/
+# .coverage
+# .coverage.*
+# .cache
+# nosetests.xml
+# coverage.xml
+# *,cover
+# .pytest_cache/
+# .hypothesis/
+
+# # ============================================
+# # TRANSLATIONS
+# # ============================================
+# *.mo
+# *.pot
+
+# # ============================================
+# # LOGS
+# # ============================================
+# *.log
+# logs/
+
+# # ============================================
+# # DOCUMENTATION
+# # ============================================
+# docs/_build/
+
+# # PyBuilder
+# target/
+
+# # ============================================
+# # MAILDIR (your specific folder)
+# # ============================================
+# maildir/
+
+# # ============================================
+# # MODEL FILES (your trained model)
+# # ============================================
+# insurance_model.pkl
+# *.pkl
+# *.h5
+# *.model
+
+# # ============================================
+# # SECRETS & ENVIRONMENT VARIABLES (CRITICAL!)
+# # ============================================
+# .env
+# .env.local
+# .env.*.local
+# *.key
+# *.pem
+# secrets.json
+# credentials.json
+# .streamlit/secrets.toml
+
+# # ============================================
+# # IDE / EDITOR FILES
+# # ============================================
+# .vscode/
+# .idea/
+# *.iml
+# *.iws
+# *.code-workspace
+# .spyderproject
+# .spyproject
+# .ropeproject
+
+# # ============================================
+# # OPERATING SYSTEM FILES
+# # ============================================
+# # macOS
+# .DS_Store
+# .AppleDouble
+# .LSOverride
+# ._*
+
+# # Windows
+# Thumbs.db
+# Thumbs.db:encryptable
+# ehthumbs.db
+# ehthumbs_vista.db
+# Desktop.ini
+# $RECYCLE.BIN/
+
+# # Linux
+# *~
+# .directory
+
+# # ============================================
+# # JUPYTER NOTEBOOKS
+# # ============================================
+# .ipynb_checkpoints/
+# */.ipynb_checkpoints/*
+
+# # ============================================
+# # TYPE CHECKERS
+# # ============================================
+# .mypy_cache/
+# .dmypy.json
+# dmypy.json
+# .pyre/
+# .pytype/
+
+# # ============================================
+# # DATABASES (if you add any)
+# # ============================================
+# *.db
+# *.sqlite
+# *.sqlite3
+
+# # ============================================
+# # TEMPORARY FILES
+# # ============================================
+# *.tmp
+# *.temp
+# *.swp
+# *.swo
+# *~
+
+# # ============================================
+# # DATA FILES (OPTIONAL - uncomment if needed)
+# # ============================================
+# # Uncomment if your CSV is large or contains sensitive data
+# # insurance.csv
+# # *.csv
+# # data/
+
+# # ============================================
+# # STREAMLIT CACHE
+# # ============================================
+# .streamlit/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -58,4 +248,5 @@ docs/_build/
 
 # PyBuilder
 target/
-maildir/
+maildir
+insurance_model.pkl
